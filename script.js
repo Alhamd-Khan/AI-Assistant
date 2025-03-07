@@ -1,11 +1,11 @@
-let prompt=document.querySelector("#prompt")
+MPLElet prompt=document.querySelector("#prompt")
 let submitbtn=document.querySelector("#submit")
 let chatContainer=document.querySelector(".chat-container")
 let imagebtn=document.querySelector("#image")
 let image=document.querySelector("#image img")
 let imageinput=document.querySelector("#image input")
 
-const Api_Url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyD-vI-cJVZP7ycL8PAYDfFvAj4o5nFmJXA";
+const Api_Url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=EXAMPLE";
 
 let user={
     message:null,
